@@ -1,0 +1,311 @@
+:root{
+    --black: #000000;
+    --white: #ffffff;
+    --red: #ad2529;
+    --yellow: #fff200;
+}
+
+*, *::before, *::after{
+    border: 0;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: url(1160159.png);
+    background-size: 1650px 800px;
+}
+.card{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card .glass{
+    position: absolute;
+    width: 500px;
+    height: 700px;
+    background: rgba(255,255,255,0.4);
+    border-radius: 20px;
+    border: 1 px solid #fff;
+    overflow: hidden;
+}
+.pikachu{
+    margin-top: 25px;
+    margin-left: 180px;
+}
+h4{
+    margin-left: 35px;
+    color: var(--yellow);
+    font-size: 20px;
+}
+
+h1{
+    font-size: 40px;
+}
+p{
+    margin-left: 53px;
+}
+.pixel{
+    margin-left: 270px;
+    margin-top: 50px;
+    height: 17px;
+    width: 17px;
+    box-shadow: 
+    /* linha 1*/
+    -85px 0 var(--black),
+    -68px 0 var(--black),
+     
+     102px 0 var(--black),
+     /* linha 2*/
+    -102px 17px var(--black),
+    -85px 17px var(--black),
+    -68px 17px var(--black),
+
+     85px 17px var(--black),
+     102px 17px var(--yellow),
+     119px 17px var(--black),
+     /* linha 3*/
+    -102px 34px var(--black),
+    -85px 34px var(--yellow),
+    -68px 34px var(--black),
+ 
+     68px 34px var(--black),
+     85px 34px var(--yellow),
+     102px 34px var(--yellow),
+     119px 34px var(--yellow),
+     136px 34px var(--black),
+      /* linha 4*/
+    -119px 51px var(--black),  
+    -102px 51px var(--yellow),
+    -85px 51px var(--yellow),
+    -68px 51px var(--black),
+ 
+     17px 51px var(--black),
+     34px 51px var(--black),
+     51px 51px var(--black),
+     68px 51px var(--yellow),
+     85px 51px var(--yellow),
+     102px 51px var(--yellow),
+     119px 51px var(--yellow),
+     136px 51px var(--black),
+       /* linha 5*/
+    -119px 68px var(--black),  
+    -102px 68px var(--yellow),
+    -85px 68px var(--yellow),
+    -68px 68px var(--black),
+    -17px 68px var(--black),
+     0px 68px var(--black),
+     17px 68px var(--black),
+     34px 68px var(--black),
+     51px 68px var(--black),
+     68px 68px var(--yellow),
+     85px 68px var(--yellow),
+     102px 68px var(--yellow),
+     119px 68px var(--black),
+        /* linha 6*/
+    -136px 85px var(--black),  
+    -119px 85px var(--yellow),  
+    -102px 85px var(--yellow),
+    -85px 85px var(--yellow),
+    -68px 85px var(--yellow),
+    -51px 85px var(--black),
+    -34px 85px var(--black),
+    -17px 85px var(--yellow),
+     0px 85px var(--yellow),
+     17px 85px var(--black),
+     34px 85px var(--black),
+     51px 85px var(--yellow),
+     68px 85px var(--yellow),
+     85px 85px var(--yellow),
+     102px 85px var(--black),
+        /* linha 7*/
+    -153px 102px var(--black),  
+    -136px 102px var(--yellow),  
+    -119px 102px var(--yellow),  
+    -102px 102px var(--yellow),
+    -85px 102px var(--yellow),
+    -68px 102px var(--yellow),
+    -51px 102px var(--yellow),
+    -34px 102px var(--yellow),
+    -17px 102px var(--yellow),
+     0px 102px var(--yellow),
+     17px 102px var(--black),
+     34px 102px var(--black),
+     51px 102px var(--yellow),
+     68px 102px var(--yellow),
+     85px 102px var(--black),
+         /* linha 8*/
+    -170px 119px var(--black),  
+    -153px 119px var(--white),  
+    -136px 119px var(--yellow),  
+    -119px 119px var(--yellow),  
+    -102px 119px var(--yellow),
+    -85px 119px var(--yellow),
+    -68px 119px var(--yellow),
+    -51px 119px var(--yellow),
+    -34px 119px var(--yellow),
+    -17px 119px var(--yellow),
+     0px 119px var(--yellow),
+     17px 119px var(--black),
+     51px 119px var(--black),
+     68px 119px var(--yellow),
+     85px 119px var(--yellow),
+     102px 119px var(--black),
+          /* linha 9*/
+    -170px 136px var(--black),  
+    -153px 136px var(--black),  
+    -136px 136px var(--yellow),  
+    -119px 136px var(--yellow),  
+    -102px 136px var(--yellow),
+    -85px 136px var(--yellow),
+    -68px 136px var(--yellow),
+    -51px 136px var(--yellow),
+    -34px 136px var(--yellow),
+    -17px 136px var(--yellow),
+     0px 136px var(--yellow),
+     17px 136px var(--black),
+     68px 136px var(--black),
+     85px 136px var(--yellow),
+     102px 136px var(--black),
+           /* linha 10*/
+    -170px 153px var(--black),  
+    -153px 153px var(--yellow),  
+    -136px 153px var(--yellow),  
+    -119px 153px var(--yellow),  
+    -102px 153px var(--yellow),
+    -85px 153px var(--white),
+    -68px 153px var(--black),
+    -51px 153px var(--yellow),
+    -34px 153px var(--yellow),
+    -17px 153px var(--yellow),
+     0px 153px var(--yellow),
+     17px 153px var(--yellow),
+     34px 153px var(--black),
+     51px 153px var(--black),
+     68px 153px var(--yellow),
+     85px 153px var(--black),
+            /* linha 11*/  
+    -153px 170px var(--black),  
+    -136px 170px var(--yellow),  
+    -119px 170px var(--yellow),  
+    -102px 170px var(--yellow),
+    -85px 170px var(--black),
+    -68px 170px var(--black),
+    -51px 170px var(--yellow),
+    -34px 170px var(--yellow),
+    -17px 170px var(--yellow),
+     0px 170px var(--yellow),
+     17px 170px var(--yellow),
+     34px 170px var(--black),
+     51px 170px var(--black),
+     68px 170px var(--black),
+             /* linha 12*/    
+    -136px 187px var(--black),  
+    -119px 187px var(--yellow),  
+    -102px 187px var(--yellow),
+    -85px 187px var(--yellow),
+    -68px 187px var(--yellow),
+    -51px 187px var(--red),
+    -34px 187px var(--red),
+    -17px 187px var(--yellow),
+     0px 187px var(--yellow),
+     17px 187px var(--black),
+     34px 187px var(--black),
+     51px 187px var(--black),
+    /* linha 13*/    
+    -153px 204px var(--black),  
+    -136px 204px var(--yellow),  
+    -119px 204px var(--yellow),  
+    -102px 204px var(--yellow),
+    -85px 204px var(--yellow),
+    -68px 204px var(--yellow),
+    -51px 204px var(--red),
+    -34px 204px var(--yellow),
+    -17px 204px var(--yellow),
+     0px 204px var(--yellow),
+     17px 204px var(--yellow),
+     34px 204px var(--yellow),
+     51px 204px var(--black),
+    /* linha 14*/   
+    -136px 221px var(--black),  
+    -119px 221px var(--black),  
+    -102px 221px var(--yellow),
+    -85px 221px var(--yellow),
+    -68px 221px var(--yellow),
+    -51px 221px var(--yellow),
+    -34px 221px var(--yellow),
+    -17px 221px var(--black),
+     0px 221px var(--yellow),
+     17px 221px var(--yellow),
+     34px 221px var(--black),
+     51px 221px var(--black),
+    /* linha 15*/    
+    -119px 238px var(--black),  
+    -102px 238px var(--yellow),
+    -85px 238px var(--yellow),
+    -68px 238px var(--yellow),
+    -51px 238px var(--yellow),
+    -34px 238px var(--black),
+    -17px 238px var(--yellow),
+     0px 238px var(--yellow),
+     17px 238px var(--yellow),
+     34px 238px var(--yellow),
+     51px 238px var(--black),
+    /* linha 15*/    
+    -136px 255px var(--black),  
+    -119px 255px var(--yellow),  
+    -102px 255px var(--black),
+    -85px 255px var(--yellow),
+    -68px 255px var(--yellow),
+    -51px 255px var(--yellow),
+    -34px 255px var(--yellow),
+    -17px 255px var(--black),
+     0px 255px var(--yellow),
+     17px 255px var(--yellow),
+     34px 255px var(--yellow),
+     51px 255px var(--black),
+    /* linha 16*/    
+    -136px 272px var(--black),  
+    -119px 272px var(--black),  
+    -102px 272px var(--black),
+    -85px 272px var(--black),
+    -68px 272px var(--black),
+    -51px 272px var(--yellow),
+    -34px 272px var(--yellow),
+    -17px 272px var(--yellow),
+     0px 272px var(--yellow),
+     17px 272px var(--yellow),
+     34px 272px var(--black),
+    /* linha 17*/    
+    -51px 289px var(--black),
+    -34px 289px var(--black),
+    -17px 289px var(--black),
+     0px 289px var(--yellow),
+     17px 289px var(--black),
+     34px 289px var(--black),
+    /* linha 17*/    
+    -34px 306px var(--black),
+    -17px 306px var(--yellow),
+     0px 306px var(--yellow),
+     17px 306px var(--yellow),
+     34px 306px var(--black),
+    /* linha 18*/    
+    -17px 323px var(--black),
+     0px 323px var(--black),
+     17px 323px var(--black);
+    }
+
+.text{
+    color: rgb(0, 0, 0);
+    margin-top: 370px;
+    margin-left: 23px;
+    font-size: 19px;
+    
+}
+
